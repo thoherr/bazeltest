@@ -2,5 +2,5 @@
 #include "lib/hello-greet.h"
 
 TEST(FactorialTest, Negative) {
-  EXPECT_EQ(get_greet("Bazel"), "Hello Bazel");
+  EXPECT_EQ(get_greet("Bazel"), "Hello Bazel !");
 }
